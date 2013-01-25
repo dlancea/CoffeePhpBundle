@@ -3,6 +3,7 @@
 	"type": "symfony-bundle",
 	"description": "Symfony Bundle for using the PHP implementation for using alxlit's PHP coffeescript compiler",
 	"version": "master",
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "David Lancea",

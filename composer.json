@@ -18,7 +18,7 @@
 	"target-dir": "Dlancea/CoffeePhpBundle",
 	"require": {
 		"php": ">=5.3.3",
-		"symfony": ">=2.1.1",
+		"symfony/symfony": ">=2.1.1",
 		"coffeescript/coffeescript": "dev-master"
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"name": "dlancea/coffee-php-bundle",
 	"type": "symfony-bundle",
-	"description": "Symfony2 Bundle for using alxlit's PHP implementation of the coffeescript compiler.",
+	"description": "Symfony2 Bundle for using alxlit's PHP implementation of the coffeescript compiler as an Assetic filter.",
 	"version": "master",
 	"license": "MIT",
 	"authors": [

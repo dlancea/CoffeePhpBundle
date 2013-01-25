@@ -1,0 +1,6 @@
+
+services:
+  dlancea.assetic.filter.coffeephp:
+    class: Dlancea\CoffeePhpBundle\Assetic\Filter\CoffeePhpFilter
+    tags: 
+      - { name: assetic.filter, alias: coffeephp }

@@ -1,0 +1,23 @@
+{
+	"name": "dlancea/coffee-php-bundle",
+	"type": "symfony-bundle",
+	"description": "Symfony Bundle for using the PHP implementation for using alxlit's PHP coffeescript compiler",
+	"version": "master",
+	"authors": [
+		{
+			"name": "David Lancea",
+			"email": "dlancea@googlemail.com"
+		}
+	],
+	"autoload": {
+		"psr-0": {
+			"Dlancea\\CoffeePhpBundle": ""
+		}
+	},
+	"target-dir": "Dlancea/CoffeePhpBundle",
+	"require": {
+		"php": ">=5.3.3",
+		"symfony": ">=2.1.1",
+		"coffeescript/coffeescript": "dev-master"
+	}
+}

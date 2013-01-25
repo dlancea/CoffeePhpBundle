@@ -1,7 +1,7 @@
 CoffeePhpBundle
 ===============
 
-Symfony2 Bundle for using [alxlit's PHP implementation of the coffeescript compiler](https://github.com/alxlit/coffeescript-php). Good for using coffeescript in Symfony without having to install node.js.
+Symfony2 Bundle for using [alxlit's PHP implementation of the coffeescript compiler](https://github.com/alxlit/coffeescript-php) as an Assetic filter. Good for using coffeescript in Symfony in a pure PHP environment, no need to install node.js.
 
 If you're using Assetic without Symfony, the assetic filter located in Assetic/Filter should work fine as-is.
 

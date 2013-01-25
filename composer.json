@@ -1,7 +1,7 @@
 {
 	"name": "dlancea/coffee-php-bundle",
 	"type": "symfony-bundle",
-	"description": "Symfony Bundle for using the PHP implementation for using alxlit's PHP coffeescript compiler",
+	"description": "Symfony2 Bundle for using alxlit's PHP implementation of the coffeescript compiler.",
 	"version": "master",
 	"license": "MIT",
 	"authors": [
@@ -18,7 +18,8 @@
 	"target-dir": "Dlancea/CoffeePhpBundle",
 	"require": {
 		"php": ">=5.3.3",
-		"symfony/symfony": ">=2.1.1",
+		"symfony/symfony": ">=2.1.*",
+		"symfony/assetic-bundle": "2.1.*",
 		"coffeescript/coffeescript": "dev-master"
 	}
 }

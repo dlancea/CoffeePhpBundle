@@ -11,3 +11,12 @@ How to use
 ----------
 
 Install the package and include it in AppKernel.php. Once that's done, you can start using "filter='coffeephp'" in your javascripts tags which contain .coffee files. The files will be compiled into and included as javascript.
+
+Example:
+```twig
+{% javascripts filter='coffeephp'
+	'@AcmeBundle/Resources/assets/coffee/app.coffee'
+%}
+	<script src="{{ asset_url }}"></script>
+{% endjavascripts %}
+```

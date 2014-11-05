@@ -11,8 +11,8 @@
 		}
 	],
 	"autoload": {
-		"psr-0": {
-			"Dlancea\\CoffeePhpBundle": ""
+		"psr-4": {
+			"Dlancea\\CoffeePhpBundle\\": ""
 		}
 	},
 	"target-dir": "Dlancea/CoffeePhpBundle",
